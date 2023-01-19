@@ -1,0 +1,25 @@
+.header-container{
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 1em;
+}
+
+.menu{
+    display: none;
+}
+
+.icon-default{
+    width: 1.1em;
+    margin-left: 10px;
+}
+
+.hamburguer-icon{
+    width: 1em;
+}
+
+.logo-icon{
+    width: 8em;
+    margin-left: 10px;
+}
