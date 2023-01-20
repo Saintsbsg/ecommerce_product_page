@@ -1,0 +1,46 @@
+/* .input-container{
+    width: 90%;
+    margin: auto;
+}
+ */
+.input{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+   /*  margin-left: 10px; */
+    /* margin: 10px auto; */
+
+}
+
+.input-c{
+    margin: auto;
+    width: 90%;
+}
+
+/* .input-btn{
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+ 
+    border-color: transparent;
+    position: relative;
+    left: 10px;
+} */
+
+.plus-icon{
+    position: relative;
+    left: 325px;
+    top: 32px;
+    
+} 
+
+ .minus-icon{
+    position: relative;
+    right: -25px;
+    top: -32px;
+}  

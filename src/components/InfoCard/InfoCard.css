@@ -1,0 +1,33 @@
+.info-card-container{
+    width: 90%;
+    margin: auto;
+}
+
+.orange-paragraph{
+    color: hsl(26, 100%, 55%);
+    text-transform: uppercase;
+}
+
+.info-paragraph{
+    color:   hsl(219, 9%, 45%)
+}
+
+.price-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discount{
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.previous-price{
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    font-size: 15px;
+}

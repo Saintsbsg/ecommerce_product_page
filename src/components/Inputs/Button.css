@@ -1,0 +1,13 @@
+.btn-container{
+    width: 90%;
+    margin: 0px auto 25px;
+}
+.btn{
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border-color: transparent;
+} 
