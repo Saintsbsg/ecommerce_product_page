@@ -1,0 +1,72 @@
+.fade{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #000;
+    opacity: .3;
+    z-index: 3;
+    
+}
+
+.modal{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90vw;
+    max-height: 50vh;
+    z-index: 3;
+    background-color: #fff;
+  /*   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; */
+    border-radius: 15px;
+}
+
+.cart-content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;   
+}
+
+.cart-content p{
+    margin: 50px 0 50px 0;
+}
+
+.sneaker-cart-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.sneaker-cart-info .total-price{
+ font-weight: bold;
+ color: #000;
+}
+
+.sneaker-cart-info .info-price{
+    color:  hsl(219, 9%, 45%);
+   }
+
+.sneaker-cart-info img{
+    max-width: 20%;
+    max-height: 70%;
+    border-radius: 15px;
+}
+
+.hide{
+    display: none !important;
+}
