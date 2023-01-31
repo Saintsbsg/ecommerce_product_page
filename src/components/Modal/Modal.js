@@ -7,7 +7,6 @@ import Button from '../Inputs/Button';
 const Modal = () => {
 
     const {orders} = useContext(OrdersContext);
-    console.log(orders)
     const sneaker = {
         name: "Fall Limited Edition Sneakers",
         price: 125.00,
@@ -30,7 +29,6 @@ const Modal = () => {
                     <img src={sneakerThumb} alt="sneaker" />
                     <p className='info-price'>{sneaker.name} <span >${sneaker.price} x {sneaker.count}</span> <span className='total-price'>${sneaker.price * sneaker.count}</span></p>
                     
-                    {/* <p>${sneaker.price} x {sneaker.count} <span>${sneaker.price * sneaker.count}</span></p> */}
                 </div>
                 <Button text={"CheckOut"} />
                 </div>

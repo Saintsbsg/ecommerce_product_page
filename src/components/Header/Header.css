@@ -4,14 +4,10 @@
     justify-content: space-around;
     background-color: white;
     padding: 1em;
+    
 }
 
-/* .navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-} */
+
 
 .nav-links li{
     display: inline-block;
@@ -31,7 +27,7 @@
 }
 
 .icon-default{
-    width: 1.1em;
+    width: 1.5em;
     margin-left: 10px;
 }
 
@@ -72,12 +68,12 @@
         display: block;
         list-style: none;
         left: 0;
-        top: 75px;
+        top: 40px;
         transition: all 2s ease-in-out;
         width: 50%;
         background-color: white;
         height: 100vh;
-        z-index: 2;
+        z-index: 6;
     }
 
     .nav-links-mobile a{
@@ -86,22 +82,38 @@
         font-weight: bold
     }
 
-   /*  .navbar {
-        text-align: center;
-        padding: 32px;
-        width: 100%;
-        transition: all 0.5s ease;
-    } */
 
   .mobile-menu-icon{
         display: block;
         position: relative;
-        font-size: 1.1em;
+        font-size: 1.6em;
         border: none;
+        padding: 5px;
         outline: none;
         top: 3px;
         right: 0px;
         background-color: white;
         box-sizing: border-box;
     } 
+}
+
+@media screen and (min-width: 750px) {
+    .nav-links{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    .nav-links a{
+        color:  hsl(219, 9%, 45%);
+    }
+    
+}
+
+@media screen and (min-height: 700px) {
+    .header-container{
+      margin-bottom: -30px;  
+    }
 }

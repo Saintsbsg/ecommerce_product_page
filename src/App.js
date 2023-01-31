@@ -4,9 +4,10 @@ import { SliderData } from "./components/ImageSlider/SliderData";
 import InfoCard from "./components/InfoCard/InfoCard";
 import Input from "./components/Inputs/Input";
 import Modal from "./components/Modal/Modal";
+
 function App() {
   return (
-    <div >
+    <div>
        <Modal/>
       <Header/>
       <ImageSlider slides={SliderData}/>

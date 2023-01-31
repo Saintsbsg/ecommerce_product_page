@@ -1,20 +1,20 @@
-import React, { useEffect } from 'react'
 import Cart from '../../assets/images/icon-cart.svg'
 import Avatar from '../../assets/images/image-avatar.png'
 import Logo from '../../assets/images/logo.svg'
-import IconMenu from '../../assets/images/icon-menu.svg'
-import { useState, useContext } from 'react'
-import { OrdersContext } from '../../context/OrdersContext'
+import { useState, useContext, useEffect } from 'react'
 import './Header.css'
-import { CartContext } from '../../context/CartContext'
-import { data } from '../data/OrdersData'
 import Modal from '../Modal/Modal'
+import { OrdersContext } from '../../context/OrdersContext'
 
 
 const Header = () => {
   const [isMobile, SetIsMobile] = useState(false);
   const {orders, setOrders} = useContext(OrdersContext);
-  const {cart} = useContext(CartContext);
+
+  
+  useEffect(() =>{
+    
+  }, [orders])
   const showModal = (e) =>{
     const modal = document.querySelector("#modal");
     modal.classList.remove("hide");

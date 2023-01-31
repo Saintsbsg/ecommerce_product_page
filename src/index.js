@@ -4,15 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { OrdersContextProvider } from './context/OrdersContext';
-import { CartContextProvider } from './context/CartContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
     <OrdersContextProvider>
-    <CartContextProvider>
     <App />
-    </CartContextProvider>
     </OrdersContextProvider>
   
 );
