@@ -9,7 +9,7 @@ const Input = () => {
     const [localOrders, setLocalOrders] = useState(0)
   return (
      <div className='input-container'>
-      <div className='input-c'>
+      <div className='input-counter'>
         <img className='plus-icon' src={PlusIcon} alt="plus-icon" onClick={(e) => setLocalOrders(localOrders + 1)} />
         <input className='input' type="text" value={localOrders} readOnly />
         <img className='minus-icon' src={MinusIcon} alt="minus icon"  onClick={(e) => localOrders === 0 ? setLocalOrders(0) : setLocalOrders(localOrders - 1)} />
